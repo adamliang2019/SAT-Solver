@@ -1,0 +1,10 @@
+# cd ../../mnt/c/Users/adam/Desktop/CMPT310Assignment5
+# g++ walk_sat.cpp
+# g++ walk_sat_dynamic_programming.cpp
+# g++ propositional_theorem_prover.cpp
+# python k-CNF_generator.py 4 20000 4400 (k(# literals per clause) = 4, m(# clauses to generate) = 20000, n(# symbols) = 4400)
+# ./a.out 4-queens.txt
+# ./a.out 3-queens.txt
+# ./a.out generated_cnf.txt
+# for the propositional theorem prover:
+# ./a.out generated_cnf.txt 3 4 -7 (query= (3 V 3 V -7))
